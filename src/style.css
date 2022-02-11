@@ -1,0 +1,54 @@
+#header{
+    width:100%;
+    font-size: 20px;
+    height:80px;
+    box-shadow: 5px 1px 15px grey;
+}
+body{
+    background-color:black;
+}
+#volume{
+    width:200px;
+    font-size: 20px;
+    height:40px;
+    box-shadow: 5px 1px 15px grey;
+}
+#volume_side{
+    float:left;
+    width:200px;
+    margin:100px;
+    font-size: 20px;
+    height:100px;
+}
+#speed{
+    width:200px;
+    font-size: 20px;
+    height:40px;
+    box-shadow: 5px 1px 15px grey;
+    
+}
+#speed_side{
+    float:right;
+    width:200px;
+    margin:100px;
+    font-size: 20px;
+    height:100px;
+}
+img{
+    border-radius: 5px;
+    box-shadow: 5px 1px 15px grey;
+}
+canvas{
+    margin-top:100px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 1px 15px whitesmoke;
+}
+button{
+    width:100px;
+    height:40px;
+}
+#playSong{
+    font-size: 18px;
+}

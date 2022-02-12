@@ -25,7 +25,7 @@ function playSong(){
     document.getElementById("volume").innerHTML = "Volume: 0x";
 }
 function keyPressed(){
-    if(key = "shift"){
+    if(key){
         song.stop();
         song.setVolume(1);
         song.rate(1);
@@ -58,7 +58,7 @@ function draw(){
     }
     if(slw > 0.2){
         circle(lwx,lwy,20);
-        document.getElementById("volume").innerHTML = "Speed: "+(rwy/200).toFixed(1)+"x";
+        document.getElementById("volume").innerHTML = "Volume: "+(lwy/500).toFixed(1)+"x";
         song.rate(lwy/500);
     }
 }

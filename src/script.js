@@ -51,12 +51,12 @@ function gotPoses(r){
 }
 function draw(){
     image(capture,0,0,640,480);
-    if(srw){
+    if(srw > 0.2){
         circle(rwx,rwy,20);
         document.getElementById("speed").innerHTML = "Speed: "+(rwy/200).toFixed(1)+"x";
         song.rate(rwy/200);
     }
-    if(slw){
+    if(slw > 0.2){
         circle(lwx,lwy,20);
         document.getElementById("volume").innerHTML = "Speed: "+(rwy/200).toFixed(1)+"x";
         song.rate(lwy/500);
